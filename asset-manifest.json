@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.eda3ab16.css",
-    "main.js": "/personal-portfolio/static/js/main.00f30e26.js",
+    "main.css": "/personal-portfolio/static/css/main.ef5da61c.css",
+    "main.js": "/personal-portfolio/static/js/main.26690a7f.js",
     "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/ewc-semifinal1-02.jpg": "/personal-portfolio/static/media/ewc-semifinal1-02.65c429c58e0b0620b03f.jpg",
     "static/media/ewc-semifinal1-01.jpg": "/personal-portfolio/static/media/ewc-semifinal1-01.8a9b3e2af90dcdc5c307.jpg",
     "static/media/color-sharp.png": "/personal-portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/personal-portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/instagram-logo.png": "/personal-portfolio/static/media/instagram-logo.f6ae0ba2d59d79a3e08d.png",
     "static/media/banner-bg.png": "/personal-portfolio/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/header-img.svg": "/personal-portfolio/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
-    "static/media/project-bg-right-top.png": "/personal-portfolio/static/media/project-bg-right-top.a6d9cd0941ff949a644e.png",
     "static/media/CentraNo2-Bold.ttf": "/personal-portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/personal-portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/personal-portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
@@ -43,6 +43,7 @@
     "static/media/figma.svg": "/personal-portfolio/static/media/figma.eea90cbdb2df47f3f9a77474d7dd244c.svg",
     "static/media/typescript.svg": "/personal-portfolio/static/media/typescript.a6305a733dd55243980aec55f96f70c5.svg",
     "static/media/git-icon.svg": "/personal-portfolio/static/media/git-icon.c60b7e5ae8ec2562f23fdddcab300026.svg",
+    "static/media/maps-logo.svg": "/personal-portfolio/static/media/maps-logo.6060055969f107f292b5c742782c4f04.svg",
     "index.html": "/personal-portfolio/index.html",
     "static/media/tailwind-css-2.svg": "/personal-portfolio/static/media/tailwind-css-2.fb6249c60b33d137c3ed8403f1e6c4b2.svg",
     "static/media/tensorflow-2.svg": "/personal-portfolio/static/media/tensorflow-2.84a4db00a79641b19fa7e3873b0f457b.svg",
@@ -56,12 +57,12 @@
     "static/media/microsoft-5.svg": "/personal-portfolio/static/media/microsoft-5.e116a418f9c5f551889532b8c5095213.svg",
     "static/media/pytorch-icon.svg": "/personal-portfolio/static/media/pytorch-icon.8653d1d6d7ba93c4c4ed583bbd51fb99.svg",
     "static/media/nav-icon2.svg": "/personal-portfolio/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.eda3ab16.css.map": "/personal-portfolio/static/css/main.eda3ab16.css.map",
-    "main.00f30e26.js.map": "/personal-portfolio/static/js/main.00f30e26.js.map",
+    "main.ef5da61c.css.map": "/personal-portfolio/static/css/main.ef5da61c.css.map",
+    "main.26690a7f.js.map": "/personal-portfolio/static/js/main.26690a7f.js.map",
     "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eda3ab16.css",
-    "static/js/main.00f30e26.js"
+    "static/css/main.ef5da61c.css",
+    "static/js/main.26690a7f.js"
   ]
 }
