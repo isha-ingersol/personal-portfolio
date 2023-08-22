@@ -1,5 +1,10 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Carousel } from 'react-responsive-carousel';
+
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import colorSharp from "../assets/img/color-sharp.png";
 import java from "../assets/logos/java-logo.svg";
@@ -31,6 +36,11 @@ import { Type } from 'react-bootstrap-icons';
 
 // Create an array of skill objects
 const skills = [
+  {
+    name: 'Java',
+    imgSrc: java,
+    altText: 'Java Logo'
+  },
   {
     name: 'Python',
     imgSrc: python,
@@ -151,32 +161,37 @@ const skills = [
     imgSrc: MS365,
     altText: 'Microsoft Office, Microsoft Word, Microsoft PowerPoint, Microsoft Excel'
   },
-  {
-    name: 'Java',
-    imgSrc: java,
-    altText: 'Java Logo'
-  },
 ];
 
 const Skills = () => {
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3, // Number of slides to show at once
+    slidesToScroll: 3, // Number of slides to scroll
+  };
+
   return (
     <section className="skill" id="skills">
       <div className="container">
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2 style={{marginTop:"10px"}}>Skills</h2>
+              <h2 style={{ marginTop: "10px" }}>Skills</h2>
               <p>Over the years, I have developed a <span>unique skillset</span>, which I have mentioned below.</p>
-              <Carousel infiniteLoop useKeyboardArrows showThumbs={true} showArrows={true} showStatus={false} dynamicHeight={false} centerMode={true} centerSlidePercentage={100 / 3}>
-                {skills.map((skill, index) => (
-                  <div key={index}>
-                    <div className="item" style={{ marginBottom: "50px" }}>
-                      <img src={skill.imgSrc} alt={skill.name} style={{ maxWidth: "200px", padding: "10px" }} />
-                      <h5>{skill.name}</h5>
+              <div className="slider-container">
+                <Slider {...settings}>
+                  {skills.map((skill, index) => (
+                    <div key={index}>
+                      <div className="item" style={{ marginBottom: "50px", display:"flex", flexDirection:"column", alignItems:"center", textAlign:"center" }}>
+                        <img src={skill.imgSrc} alt={skill.name} style={{ maxWidth: "200px", padding: "10px" }} />
+                        <div className="skill-name">{skill.name}</div>  {/* Display skill name */}
+                      </div>
                     </div>
-                  </div>
-                ))}
-              </Carousel>
+                  ))}
+                </Slider>
+              </div>
             </div>
           </div>
         </div>
@@ -184,6 +199,6 @@ const Skills = () => {
       <img className="background-image-left" src={colorSharp} alt="Image" />
     </section>
   );
-}
+};
 
 export default Skills;

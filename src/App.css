@@ -131,7 +131,7 @@ p.success {
 p.danger {
 	color: red;
 }
-/************ Navbar Css ************/
+/************ Navbar CSS ************/
 nav.navbar {
   /* padding: 18px 0px; */
   position: fixed;
@@ -202,7 +202,6 @@ span.navbar-text {
   filter: brightness(50%) saturate(100%) invert(0%) sepia(0%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
 
-
 .navbar-text button {
   font-weight: 700;
   color: var(--text-dark);
@@ -240,7 +239,8 @@ span.navbar-text {
 nav.navbar .navbar-toggler:active,
 nav.navbar .navbar-toggler:focus {
 	outline: none;
-    box-shadow: none;
+  box-shadow: none;
+  padding: 18px 34px;
 }
 nav.navbar .navbar-toggler-icon {
   width: 24px;
@@ -249,7 +249,7 @@ nav.navbar .navbar-toggler-icon {
   position: relative;
   border-bottom: 2px solid #fff;
   transition: all 300ms linear;
-  top: -2px;
+  top: 22px;
 }
 nav.navbar .navbar-toggler-icon:focus {
 	border-bottom: 2px solid #fff;
@@ -296,7 +296,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.3s ease-in-out;
 }
 
-/************ Banner Css ************/
+/************ Banner CSS ************/
 .banner {
   margin-top: 0;
   /* padding: 260px 0 100px 0; */
@@ -457,13 +457,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 700;
 }
 .skill p {
-    color: var(--text-dark);
-    font-size: 18px;
-    letter-spacing: 0.8px;
-    line-height: 1.5em;
-    margin: 14px 0 75px 0;
-    text-align: justify center;
+  color: var(--text-dark);
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
+  text-align: justify center;
 }
+
+.skill-name {
+  color: var(--text-dark);
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0px 0 0px;
+  text-align: justify center;
+}
+
 .skill-slider {
   width: 80%;
   margin: 0 auto;
