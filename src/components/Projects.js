@@ -4,6 +4,9 @@ import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import linkedin from "../assets/img/LinkedIn-logo.png";
+import instagram from "../assets/img/instagram-logo.png";
+import maps from "../assets/img/maps-logo.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import colorSharp from "../assets/img/color-sharp.png"
@@ -12,39 +15,32 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "LinkedIn Clone",
+      description: "Under Development",
+      imgUrl: linkedin,
+      imgWidth: "200px",
+      imgHeight: "200px",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Instagram Clone",
+      description: "Under Development",
+      imgUrl: instagram,
+      imgWidth: "200px",
+      imgHeight: "200px",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Maps Clone",
+      description: "Under Development",
+      imgUrl: maps,
+      imgWidth: "200px",
+      imgHeight: "200px",
     },
   ];
 
   return (
     <section className="project" id="project">
+      <img className="background-image-left-top" src={colorSharp} alt="Image" style={{ zIndex: "0" }} />
+      <img className="background-image-right-bottom" src={colorSharp2} alt="Image" style={{ zIndex: "0" }} />
       <Container>
         <Row>
           <Col size={12}>
@@ -54,7 +50,7 @@ export const Projects = () => {
                 {/* <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={projectBG} alt="Contact Us"/> */}
                 <div className="project-bx">
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>Throughout my journey, I have created multiple projects. Below, I have mentioned my most <span>notable projects</span>. Some of them are under development.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   {/* <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab"> */}
                   {/* <Nav variant="pills" className="nav-pill mb-5" id="pills-tab">
