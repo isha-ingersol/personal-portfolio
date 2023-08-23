@@ -168,8 +168,10 @@ const Skills = () => {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3, // Number of slides to show at once
-    slidesToScroll: 3, // Number of slides to scroll
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    rows: 2,
+    // slidesPerRow: 3, // Display 3 slides per row
   };
 
   return (
