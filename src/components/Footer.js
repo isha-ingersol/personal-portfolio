@@ -23,6 +23,7 @@ export const Footer = () => {
             </div>
             <p>
               {/* Copyright 2022. All Rights Reserved */}
+              This portfolio was created with the React JavaScript framework, CSS, NodeJS, and GitHub
             </p>
           </Col>
         </Row>

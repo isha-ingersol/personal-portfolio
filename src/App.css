@@ -472,6 +472,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.5em;
   margin: 14px 0px 0 0px;
   text-align: justify center;
+  overflow-wrap: break-word;
 }
 
 .skill-slider {
