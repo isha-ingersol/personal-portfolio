@@ -4,9 +4,10 @@ import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import linkedin from "../assets/img/LinkedIn-logo.png";
-import instagram from "../assets/img/instagram-logo.png";
-import maps from "../assets/img/maps-logo.svg";
+import linkedin from "../assets/img/project-LinkedIn-logo.png";
+import instagram from "../assets/img/project-instagram-logo.png";
+import threads from "../assets/img/project-threads-logo.png";
+import maps from "../assets/img/project-maps-logo.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import colorSharp from "../assets/img/color-sharp.png"
@@ -15,16 +16,21 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "LinkedIn Clone",
-      description: "Under Development",
-      imgUrl: linkedin,
+      title: "Threads Clone",
+      description: (
+        <>
+          Under Development. <br />
+          Technologies Used: TailwindCSS, NextJS, Clerk, TypeScript, and more.
+        </>
+      ),
+      imgUrl: threads,
       imgWidth: "200px",
       imgHeight: "200px",
     },
     {
-      title: "Instagram Clone",
+      title: "LinkedIn Clone",
       description: "Under Development",
-      imgUrl: instagram,
+      imgUrl: linkedin,
       imgWidth: "200px",
       imgHeight: "200px",
     },
