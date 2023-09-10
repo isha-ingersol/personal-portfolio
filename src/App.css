@@ -139,6 +139,7 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition:  0.32s ease-in-out;
+  background-color: var(--background-dark);
 }
 nav.navbar.scrolled {
   /* padding: 18px 0px 0px 0px; */
@@ -705,6 +706,51 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 75px;
   height: 75px;
 }
+
+/* Add the background color for mobile devices */
+@media (max-width: 600px) {
+  .contact .phone, .email, .linkedin, .twitter {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0% !important;
+  }
+
+  .contact .phone {
+    padding-right: 20% !important;
+  }
+  .contact .email {
+    padding-right: 24% !important;
+  }
+  .contact .linkedin {
+    padding-right: 7.25% !important;
+  }
+  .contact .twitter {
+    padding-right: 16% !important;
+  }
+
+  .contact h4 {
+    font-size: 20px;
+    margin-top: 50% !important;
+  }
+  .contact .linkedin h4 {
+    font-size: 20px;
+    margin-top: 40% !important;
+  }
+
+  .contact .social-icon {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+
+
 
 
 

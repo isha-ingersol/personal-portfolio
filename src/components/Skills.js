@@ -37,7 +37,7 @@ import Agile from "../assets/logos/agile.svg";
 import MS365 from "../assets/logos/microsoft-5.svg";
 
 import { Type } from 'react-bootstrap-icons';
-import './skills-styles.css';
+import '../skills-styles.css';
 
 // Create an array of skill objects
 // const skills = [

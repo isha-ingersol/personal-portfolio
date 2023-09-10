@@ -43,7 +43,7 @@ export const Footer = () => {
           <div style={{display:"flex", flexDirection:"row", justifyContent:"center", alignItems:"center", textAlign:"center"}}>
             <p>
               {/* Copyright 2022. All Rights Reserved */}
-              This portfolio was created with the React JavaScript framework, CSS, NodeJS, GitHub, and other web development technologies.
+              This portfolio was created with React-Bootstrap, JavaScript, CSS, NodeJS, GitHub, and other web development technologies.
             </p>
           </div>
         </Row>
