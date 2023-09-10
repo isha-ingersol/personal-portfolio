@@ -139,8 +139,15 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition:  0.32s ease-in-out;
-  background-color: var(--background-dark);
 }
+
+/* Navbar on smaller devices (non-desktop/non-laptop) */
+@media (max-width: 800px) {
+  nav.navbar {
+    background-color: var(--background-dark);
+  }
+}
+
 nav.navbar.scrolled {
   /* padding: 18px 0px 0px 0px; */
   background-color: var(--background-dark);
