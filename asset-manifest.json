@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6e82bff8.css",
-    "main.js": "/static/js/main.0e07b03b.js",
+    "main.css": "/static/css/main.01fc31a4.css",
+    "main.js": "/static/js/main.f4d2b58b.js",
     "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
     "static/media/ewc-semifinal1-02.jpg": "/static/media/ewc-semifinal1-02.65c429c58e0b0620b03f.jpg",
     "static/media/ewc-semifinal1-01.jpg": "/static/media/ewc-semifinal1-01.8a9b3e2af90dcdc5c307.jpg",
@@ -66,12 +66,12 @@
     "static/media/html-5.svg": "/static/media/html-5.e9261cffa3c36f42766dcec252dea8f7.svg",
     "static/media/microsoft-5.svg": "/static/media/microsoft-5.15fc27de9da158321e9ffbd932080767.svg",
     "static/media/nav-icon2.svg": "/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.6e82bff8.css.map": "/static/css/main.6e82bff8.css.map",
-    "main.0e07b03b.js.map": "/static/js/main.0e07b03b.js.map",
+    "main.01fc31a4.css.map": "/static/css/main.01fc31a4.css.map",
+    "main.f4d2b58b.js.map": "/static/js/main.f4d2b58b.js.map",
     "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e82bff8.css",
-    "static/js/main.0e07b03b.js"
+    "static/css/main.01fc31a4.css",
+    "static/js/main.f4d2b58b.js"
   ]
 }
